@@ -1,0 +1,32 @@
+<html>
+<head>
+<link data-n-head="ssr" rel="icon" type="image/x-icon" href="/favicon.ico">
+<link data-n-head="ssr" rel="stylesheet" href="/css/bootstrap.min.css">
+<link data-n-head="ssr" rel="stylesheet" href="/css/custom.css">
+<link data-n-head="ssr" rel="stylesheet" href="/css/global.css">
+<script data-n-head="ssr" src="/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <div class="position-fixed top-50 start-50 translate-middle text-center">
+    <img class="header-logo mb-5 mx-auto" src="/img/logo.png" alt="">
+    <div class="homepage-yellow p-5 rounded-3">
+      <h2 class="font-daniel">Are you 18 or over?</h2>
+      <div class="d-flex justify-content-center mt-4" style="column-gap: 30px;">
+      <form class="font-tg mb-0" method="POST">
+            <input type="hidden" name="age" value="over18" class="form-control">
+        <button type="submit" class="text-white px-3 py-2 border rounded-1" style="background-color: #000;">
+          <span class="font-daniel">Yes, I am.</span>
+        </button>
+        </form>
+
+              <form class="font-tg mb-0" method="POST">
+            <input type="hidden" name="age" value="under18" class="form-control">
+        <button class="bg-light text-dark px-3 py-2 border rounded-1 border-dark" style="background-color: #000;">
+          <span class="font-daniel">No, go back.</span>
+        </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

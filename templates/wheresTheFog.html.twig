@@ -1,0 +1,330 @@
+<html>
+<head>
+<link data-n-head="ssr" rel="icon" type="image/x-icon" href="/favicon.ico">
+<link data-n-head="ssr" rel="stylesheet" href="/css/bootstrap.min.css">
+<link data-n-head="ssr" rel="stylesheet" href="/css/custom.css">
+<link data-n-head="ssr" rel="stylesheet" href="/css/global.css">
+<script data-n-head="ssr" src="/js/bootstrap.bundle.min.js"></script>
+<title>The Fathers Beer</title>
+</head>
+<body class="">
+  <div>
+    <!-- Desktop Navbar -->
+    <div class="d-none d-md-block">
+      <div class="d-flex justify-content-center py-3 nav-gap">
+      <div class="w-25">
+      <div class="d-flex justify-content-end nav-gap">
+      <div class="custom-nav-items align-items-center">
+        <a class="menu-item-border pb-2" href="/">
+            <span class="font-cj navitems fs-2">Home</span>
+        </a>
+      </div>
+      <div class="custom-nav-items align-items-center">
+        <a class="menu-item-border pb-2" href="/what-the-fog">
+        <span class="font-cj navitems fs-2">WHAT THE FOG?</span>
+        </a>
+      </div>
+      </div>
+      </div>
+      <div>
+        <div class="border-bottom border-5 border-blue">
+          <a href="/">
+            <img class="header-logo mb-2" src="/img/logo.png" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="w-25">
+      <div class="d-flex justify-content-start nav-gap">
+        <div class="custom-nav-items align-items-center">
+        <a class="menu-item-border pb-2 menu-item-active" href="/wheres-the-fog">
+        <span class="font-cj navitems fs-2">WHERE’S THE FOG?</span>
+        </a>
+      </div>
+        <!-- <div class="custom-nav-items align-items-center">
+        <a class="menu-item-border pb-2" href="#">
+        <span class="font-cj navitems">SHOP</span>
+        </a>
+      </div> -->
+      <div class="custom-nav-items align-items-center">
+        <a class="menu-item-border pb-2" href="/contact">
+        <span class="font-cj navitems fs-2">CONTACT</span>
+        </a>
+      </div>
+      </div>
+      </div>
+    </div>
+    </div>
+    <!-- Desktop Navbar END -->
+
+    <!-- Mobile Navbar -->
+    <div class="d-md-none">
+      <div class="mobile-header container-xl mb-4">
+        <div class="px-3 py-3">
+          <div class="d-flex flex-row justify-content-between">
+          <div class="border-bottom border-5 border-blue d-flex align-self-center">
+            <a href="/">
+              <img class="header-logo-mobile mb-2" src="/img/logo.png" alt="">
+          </a>
+          </div>
+          <div class="d-flex align-self-center">
+            <span type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+            <svg height="45px" width="45px" style="filter: invert(9%) sepia(77%) saturate(6590%) hue-rotate(210deg) brightness(91%) contrast(105%);" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m11 16.745c0-.414.336-.75.75-.75h9.5c.414 0 .75.336.75.75s-.336.75-.75.75h-9.5c-.414 0-.75-.336-.75-.75zm-9-5c0-.414.336-.75.75-.75h18.5c.414 0 .75.336.75.75s-.336.75-.75.75h-18.5c-.414 0-.75-.336-.75-.75zm4-5c0-.414.336-.75.75-.75h14.5c.414 0 .75.336.75.75s-.336.75-.75.75h-14.5c-.414 0-.75-.336-.75-.75z" fill-rule="nonzero"/></svg>
+            </span>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <!-- Mobile Navbar END -->
+
+    <!-- OFFCANVAS -->
+
+  <div class="offcanvas offcanvas-end homepage-yellow" tabindex="-1" ref="menuOffcanvas" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body custom-nav-items">
+    <hr class="mb-1">
+    <div>
+      <a class="menu-item-border pb-2" href="/">
+            <span class="font-cj navitems">Home</span>
+        </a>
+    </div>
+    <hr class="mt-3 mb-1">
+    <div>
+      <a class="menu-item-border pb-2" href="/what-the-fog">
+        <span class="font-cj navitems">WHAT THE FOG?</span>
+        </a>
+    </div>
+
+    <hr class="mt-3 mb-1">
+        <a class="menu-item-border pb-2" href="/wheres-the-fog">
+        <span class="font-cj navitems">WHERE’S THE FOG?</span>
+        </a>
+    <hr class="mt-3 mb-1">
+        <a class="menu-item-border pb-2" href="/contact">
+        <span class="font-cj navitems">CONTACT</span>
+        </a>
+    <hr class="mt-3">
+  </div>
+</div>
+
+    <!-- OFFCANVA END -->
+  </div>
+
+
+  <div>
+    <div>
+      <div class="container-xl">
+        <div>
+          <h1 class="font-cj text-center" style="font-size: 50px;">get a can, fast</h1>
+        </div>
+        <div class="row gy-4">
+          <div class="col-12 col-lg-12">
+            {# <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6624.634891538868!2d151.20012952802912!3d-33.881477365597256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae2f9e28b605%3A0x5017d681632b9e0!2sHaymarket%20NSW%202000%2C%20Australia!5e0!3m2!1sen!2sus!4v1662779650061!5m2!1sen!2sus" width="100%" height="650px" style="border-radius:10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> #}
+            <script  src="https://maps.google.com/maps/api/js?key=AIzaSyCeBOtiJj3VvNNog60qg5ASue8c3VIxYio" 
+          type="text/javascript"></script>
+            <div style="width: 100%; height: 650px; border-radius:10px;" id="map"></div>
+          </div>
+          {# <div class="col-12 col-lg-3">
+            <div style="max-height: 70vh; overflow:hidden; overflow-y: auto;">
+              <div class="row row-cols-1 row-cols-md-2 row-cols-lg-1">
+                <div>
+                  <div class="card bg-lightest-gray border border-0 mb-3">
+                <div class="card-body">
+                  <h5 class="card-title font-daniel border-bottom">Primary card title</h5>
+                  <p class="card-text font-daniel fs-6"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"/></svg>
+                    Queensland, Darling Harbour.</p>
+                </div>
+              </div>
+                </div>
+                <div>
+                  <div class="card bg-lightest-gray border border-0 mb-3">
+                <div class="card-body">
+                  <h5 class="card-title font-daniel border-bottom">Primary card title</h5>
+                  <p class="card-text font-daniel fs-6"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"/></svg>
+                    Queensland, Darling Harbour.</p>
+                </div>
+              </div>
+                </div>
+                <div> 
+                  <div class="card bg-lightest-gray border border-0 mb-3">
+                <div class="card-body">
+                  <h5 class="card-title font-daniel border-bottom">Primary card title</h5>
+                  <p class="card-text font-daniel fs-6"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"/></svg>
+                    Queensland, Darling Harbour.</p>
+                </div>
+              </div>
+                </div>
+                <div> 
+                  <div class="card bg-lightest-gray border border-0 mb-3">
+                <div class="card-body">
+                  <h5 class="card-title font-daniel border-bottom">Primary card title</h5>
+                  <p class="card-text font-daniel fs-6"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"/></svg>
+                    Queensland, Darling Harbour.</p>
+                </div>
+              </div>
+                </div>
+                <div> 
+                  <div class="card bg-lightest-gray border border-0 mb-3">
+                <div class="card-body">
+                  <h5 class="card-title font-daniel border-bottom">Primary card title</h5>
+                  <p class="card-text font-daniel fs-6"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"/></svg>
+                    Queensland, Darling Harbour.</p>
+                </div>
+              </div>
+                </div>
+                <div> 
+                  <div class="card bg-lightest-gray border border-0 mb-3">
+                <div class="card-body">
+                  <h5 class="card-title font-daniel border-bottom">Primary card title</h5>
+                  <p class="card-text font-daniel fs-6"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"/></svg>
+                    Queensland, Darling Harbour.</p>
+                </div>
+              </div>
+                </div>                <div> 
+                  <div class="card bg-lightest-gray border border-0 mb-3">
+                <div class="card-body">
+                  <h5 class="card-title font-daniel border-bottom">Primary card title</h5>
+                  <p class="card-text font-daniel fs-6"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"/></svg>
+                    Queensland, Darling Harbour.</p>
+                </div>
+              </div>
+                </div>                <div> 
+                  <div class="card bg-lightest-gray border border-0 mb-3">
+                <div class="card-body">
+                  <h5 class="card-title font-daniel border-bottom">Primary card title</h5>
+                  <p class="card-text font-daniel fs-6"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"/></svg>
+                    Queensland, Darling Harbour.</p>
+                </div>
+              </div>
+                </div>                <div> 
+                  <div class="card bg-lightest-gray border border-0 mb-3">
+                <div class="card-body">
+                  <h5 class="card-title font-daniel border-bottom">Primary card title</h5>
+                  <p class="card-text font-daniel fs-6"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"/></svg>
+                    Queensland, Darling Harbour.</p>
+                </div>
+              </div>
+                </div>
+            </div>
+            </div>
+          </div> #}
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+    <div>
+      <div class="container-xl font-tg text-center pb-2">
+      <span style="font-size: .75rem;">Under the Liquor Reform Act 1998 it is an offence to supply alcohol to a person under the age of 18 years (penalty exceeds $17.000), for a person under the age of 18 years to purchase or receive liquor (penalty exceeds $700).</span>
+    </div>
+    <div class="bg-light-gray py-2 font-tg">
+    <div class="d-none d-md-block">
+      <div class="container-xl d-flex justify-content-between">
+        <div>
+          <a target="_blank" href="https://www.instagram.com/thefathersbrewingco/">            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"><path d="M14.667 12c0 1.473-1.194 2.667-2.667 2.667-1.473 0-2.667-1.193-2.667-2.667 0-1.473 1.194-2.667 2.667-2.667 1.473 0 2.667 1.194 2.667 2.667zm3.846-3.232c.038.843.046 1.096.046 3.232s-.008 2.389-.046 3.233c-.1 2.15-1.109 3.181-3.279 3.279-.844.038-1.097.047-3.234.047-2.136 0-2.39-.008-3.232-.046-2.174-.099-3.181-1.132-3.279-3.279-.039-.845-.048-1.098-.048-3.234s.009-2.389.047-3.232c.099-2.152 1.109-3.181 3.279-3.279.844-.039 1.097-.047 3.233-.047s2.39.008 3.233.046c2.168.099 3.18 1.128 3.28 3.28zm-2.405 3.232c0-2.269-1.84-4.108-4.108-4.108-2.269 0-4.108 1.839-4.108 4.108 0 2.269 1.84 4.108 4.108 4.108 2.269 0 4.108-1.839 4.108-4.108zm1.122-4.27c0-.53-.43-.96-.96-.96s-.96.43-.96.96.43.96.96.96c.531 0 .96-.43.96-.96zm6.77-7.73v24h-24v-24h24zm-4 12c0-2.172-.009-2.445-.048-3.298-.131-2.902-1.745-4.52-4.653-4.653-.854-.04-1.126-.049-3.299-.049s-2.444.009-3.298.048c-2.906.133-4.52 1.745-4.654 4.653-.039.854-.048 1.127-.048 3.299 0 2.173.009 2.445.048 3.298.134 2.906 1.746 4.521 4.654 4.654.854.039 1.125.048 3.298.048s2.445-.009 3.299-.048c2.902-.133 4.522-1.745 4.653-4.654.039-.853.048-1.125.048-3.298z"/></svg>
+          </a>
+          <a target="_blank" href="https://www.facebook.com/thefathersbeer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"><path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/></svg>  
+          </a>
+          <a target="_blank" href="info@thefathers.beer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path d="M12 12.713l-11.985-9.713h23.97l-11.985 9.713zm0 2.574l-12-9.725v15.438h24v-15.438l-12 9.725z"/></svg>
+          </a>
+        </div>
+        <div>
+          <span style="font-size: .8rem;">© The Fathers Brewing Company Pty Ltd LIQP770017509 All Rights Reserved. ACN 641 491 876.</span>
+        </div>
+        <div>
+        <NuxtLink to="/terms-and-conditions">
+          <span style="font-size: .8rem; text-decoration: none;" class="text-dark">Terms & Conditions</span>
+        </NuxtLink>
+        </div>
+      </div>
+      </div>
+
+    <div class="d-md-none">
+      <div class="container-xl d-flex flex-column justify-content-between" style="row-gap: 8px;">
+        <div>
+          <a target="_blank" href="https://www.instagram.com/thefathersbrewingco/">            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"><path d="M14.667 12c0 1.473-1.194 2.667-2.667 2.667-1.473 0-2.667-1.193-2.667-2.667 0-1.473 1.194-2.667 2.667-2.667 1.473 0 2.667 1.194 2.667 2.667zm3.846-3.232c.038.843.046 1.096.046 3.232s-.008 2.389-.046 3.233c-.1 2.15-1.109 3.181-3.279 3.279-.844.038-1.097.047-3.234.047-2.136 0-2.39-.008-3.232-.046-2.174-.099-3.181-1.132-3.279-3.279-.039-.845-.048-1.098-.048-3.234s.009-2.389.047-3.232c.099-2.152 1.109-3.181 3.279-3.279.844-.039 1.097-.047 3.233-.047s2.39.008 3.233.046c2.168.099 3.18 1.128 3.28 3.28zm-2.405 3.232c0-2.269-1.84-4.108-4.108-4.108-2.269 0-4.108 1.839-4.108 4.108 0 2.269 1.84 4.108 4.108 4.108 2.269 0 4.108-1.839 4.108-4.108zm1.122-4.27c0-.53-.43-.96-.96-.96s-.96.43-.96.96.43.96.96.96c.531 0 .96-.43.96-.96zm6.77-7.73v24h-24v-24h24zm-4 12c0-2.172-.009-2.445-.048-3.298-.131-2.902-1.745-4.52-4.653-4.653-.854-.04-1.126-.049-3.299-.049s-2.444.009-3.298.048c-2.906.133-4.52 1.745-4.654 4.653-.039.854-.048 1.127-.048 3.299 0 2.173.009 2.445.048 3.298.134 2.906 1.746 4.521 4.654 4.654.854.039 1.125.048 3.298.048s2.445-.009 3.299-.048c2.902-.133 4.522-1.745 4.653-4.654.039-.853.048-1.125.048-3.298z"/></svg>
+          </a>
+          <a target="_blank" href="https://www.facebook.com/thefathersbeer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"><path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/></svg>  
+          </a>
+          <a target="_blank" href="info@thefathers.beer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path d="M12 12.713l-11.985-9.713h23.97l-11.985 9.713zm0 2.574l-12-9.725v15.438h24v-15.438l-12 9.725z"/></svg>
+          </a>
+        </div>
+        <div>
+        <NuxtLink to="/terms-and-conditions">
+          <span style="font-size: .8rem; text-decoration: none;" class="text-dark">Terms & Conditions</span>
+        </NuxtLink>
+        </div>
+        <div>
+          <span style="font-size: .8rem;">© The Fathers Brewing Company Pty Ltd LIQP770017509 All Rights Reserved. ACN 641 491 876.</span>
+        </div>
+      </div>
+      </div>
+    </div>
+    </div>
+  
+  <script type="text/javascript">
+    var locations = [
+      ['Cellarbrations Gladesville', -33.8285111488163, 151.1291950133436],
+      ['Harbourside Cellars', -33.870760093533924, 151.19877052056802],
+      ['ABC Cellars', -33.876200055960425, 151.2213565162056],
+      ['Westmead Tavern, Westmead Station', -33.8080287648544, 150.98804475150135],
+      ['Porter’s Liqour, Marouba', -33.950596616933844, 151.24103527925388],
+      ['Liquor Emporium, St. Peters', -33.91346966834319, 151.17006887675518],
+      ['Liquor Emporium, Alexandria', -33.910449671681256, 151.19753464083303],
+      ['Super Cellars, Banksia ', -33.94459496749505, 151.1423488288824],
+      ['Steve’s Cool Booze, Kingsford', -33.92884262456888, 151.23507360042385],
+      ['Charlie’s Liqour Barn, Panania', -33.956172873577344, 150.99787325403486],
+      ['Liquor Central, Carlingford', -33.76478546231923, 151.05872724331715],
+      ['Porter\'s Liquor', -33.94420648094346, 151.12880371780395],
+      ['Liquor Emporium', -33.90817567202228, 151.17150342133425],
+      ['Birdies Mini Golf & Sports Bar (Ryde)', -33.81331763873196, 151.1046026944331],
+      ['The London Hotel 1865, Paddington', -33.8851427040408, 151.22998049250762],
+      ['The Great Southern Bar, 717 George Street, Sydney', -33.88093431762718, 151.20463922386156],
+      ['Charlie Chains Bar and Bottle Shop, 631-635 George Street, Sydney', -33.878441033090304, 151.2053908041641],
+      ['Heshela Newa Khaja Ghar, Rockdale', -33.95260969994807, 151.1372852213441],
+      ['Muglan Express, York Street', -33.869735685955675, 151.20628906796802],
+      ['Namaste Restaurant - Ashfield, Strathfield, Sydney', -33.88809123796337, 151.12486966858154],
+      ['Chulo Nepal, Harris Park', -33.820509989651, 151.0080700826545],
+      ['Tibetan Momo, Harris Park', -33.82220966919352, 151.00852029394147],
+      ['Hungry Sherpa, Edmondson Park', -33.9709408117717, 150.85899839974687],
+      ['The Cafe Talk, Campsie', -33.90955518089019, 151.10380901254314],
+      ['Mount Everest Restuarant, Hunters Hill', -33.833824123475765, 151.1429692605133],
+      ['The Little Nepal, Burwood', -33.87526538353723, 151.10395279951865],
+    ];
+    
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 12,
+      center: new google.maps.LatLng(-33.893996972007905, 151.1753988685913),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+    
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+    
+    for (i = 0; i < locations.length; i++) {  
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+      
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "Cactus Jack";
+    src: url('/font/cj.ttf') format("truetype");
+}
+@font-face {
+    font-family: "Daniel";
+    font-weight: 400;
+    src: url('/font/daniel.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Daniel";
+    font-weight: 700;
+    src: url('/font/danielbd.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Trade Gothic";
+    font-weight: 700;
+    src: url('/font/tg.ttf') format("truetype");
+}

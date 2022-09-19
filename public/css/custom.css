@@ -1,0 +1,96 @@
+:root {
+    --blue: #003893;
+    --yellow: #F3F1E9;
+    --light-gray: #F4F4F4;
+    --lightest-gray: #F7F7F7;
+}
+
+html {
+    height: 100%;
+    max-width: 100%;
+}
+
+body {
+    min-height: 100%;
+    max-width: 100%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.homepage-yellow {
+    background-color: var(--yellow);
+}
+
+.header-logo {
+    max-width: 140px;
+    height: auto;
+}
+
+.header-logo-mobile {
+    max-width: 80px;
+    height: auto;
+}
+
+.border-blue {
+    border-color: var(--blue)!important;
+}
+
+.font-cj {
+    font-family: "Cactus Jack";
+}
+
+.font-daniel {
+    font-family: "Daniel";
+}
+
+.font-tg {
+    font-family: "Trade Gothic";
+}
+
+.navitems {
+    font-size: 25px;
+    color: #4D5054;
+}
+
+.nav-gap {
+    column-gap: 50px;
+}
+
+.menu-item-active {
+    border-bottom: 2px solid var(--blue);
+}
+
+.menu-item-border:hover {
+    border-bottom: 2px solid var(--blue);
+}
+
+.imdifferent {
+    width: 300px;
+    max-width: 90vw;
+    height: auto;
+}
+
+.homepagecan {
+    width: 450px;
+    max-width: 90vw;
+    height: auto;
+}
+
+.bg-light-gray {
+    background-color: var(--light-gray);
+}
+
+.bg-lightest-gray {
+    background-color: var(--lightest-gray);
+}
+
+.mobile-header {
+    height: 80px;
+}
+
+.offcanvas.offcanvas-end {
+    width: 80vw;
+    max-width: 350px;
+}
